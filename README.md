@@ -7,15 +7,16 @@ An example of a "golden images" workflow for docker images for the BookVerse dem
 TODOs
 -----
 
-* Create a project for the "global" remote repos.  Not necessary, but will help with managing the example.
+* ~~Create a project for the "global" remote repos.  Not necessary, but will help with managing the example.~~
 
 * Create "global" remote repos for PyPi and NPM.
 
 * Create and apply curation policies to the "global" repos.
 
-* Create a project for the "golden-images".
+* ~~Create a project for the "golden-images".~~
 
-* Create the "golden-images" life cycle stages (Dev and Testing?).
+* ~~Create the "golden-images" life cycle stages (Dev and Testing?).~~
+  Decided on just DEV for now.
 
 * Create the "golden-images" life cycle gates.
 
@@ -24,7 +25,11 @@ TODOs
 * Create separate evidence signing keys for the golden images.
   Name them so they look like they're controlled by a security team.
 
-* Create local repos for the "golden-images" life cycle stages with Xray enabled.  Xray Policies?
+* ~~Create local repos for the "golden-images" life cycle stages.~~
+
+* Enable Xray on the local repos.
+
+* Xray Policies.
 
 * Create the remote for "alpine" packages.  Do some curation on them.
 
