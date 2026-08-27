@@ -21,6 +21,9 @@ TODOs
 
   * How to do a custom repo to check for a custom evidence?  This may be a later add.
 
+* Create separate evidence signing keys for the golden images.
+  Name them so they look like they're controlled by a security team.
+
 * Create local repos for the "golden-images" life cycle stages with Xray enabled.  Xray Policies?
 
 * Create the remote for "alpine" packages.  Do some curation on them.
