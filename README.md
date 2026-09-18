@@ -105,3 +105,5 @@ TODOs
  * Adds the "Golden Image" evidence to the image.
 
  * Promotes image to prod release.  This should be the repo that is shared outside the project.
+ 
+ * Create policy to check for the golden image chain via the AI policy generator.
