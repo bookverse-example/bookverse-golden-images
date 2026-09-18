@@ -20,7 +20,7 @@ TODOs
 
 * Create the "golden-images" life cycle gates.
 
-  * How to do a custom repo to check for a custom evidence?  This may be a later add.
+  * How to do a custom rego to check for a custom evidence?  This may be a later add.
 
 * Create separate evidence signing keys for the golden images.
   Name them so they look like they're controlled by a security team.
@@ -40,6 +40,8 @@ TODOs
 
   * This will likely need to be a jinja template or similar for the example as we'll need to inject the
     Artifactory / JFrog Platform host name into the dockerfile.
+
+  * Is there some sort of templating engine that's in the python standard lib?
 
 * Create the dockerfile for the pypi image.  Install Python and pip.
 
